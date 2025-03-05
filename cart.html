@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Cart</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+            <section id="header">
+                <a href="#"><img src="./img/logo.jpg" alt="" class="logo"></a>
+                <div>
+                    <ul id="navbar">
+                        <!-- <li><a href="home.html">Home</a></li> -->
+                        <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="cart-header">
+                <h4>#cart</h4>
+                <h1>SAVE upto 70%</h1>
+            </section>
+
+            <section id="cart" class="section-p1">
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            <td>Remove</td>
+                            <td>Image</td>
+                            <td>Product</td>
+                            <td>Price</td>
+                            <td>Quantity</td>
+                            <td>Subtotal</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                            <td><img src="img/f1.jpg" alt=""></td>
+                            <td>Cartoon astronaut T-Shirts</td>
+                            <td>$45</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td>$45</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                            <td><img src="img/f2.jpg" alt=""></td>
+                            <td>Cartoon astronaut T-Shirts</td>
+                            <td>$45</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td>$45</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                            <td><img src="img/f3.jpg" alt=""></td>
+                            <td>Cartoon astronaut T-Shirts</td>
+                            <td>$45</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td>$45</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="cart-add" class="section-p1">
+                <div id="subtotal">
+                    <h3>Cart Total</h3>
+                    <table>
+                        <tr>
+                            <td>Cart Subtotal</td>
+                            <td id="cart-subtotal">$135</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <td>Free</td>
+
+                        </tr>
+                        <tr>
+                            <td><strong>Total</strong></td>
+                            <td><strong id="cart-total">$135</strong></td>
+                        </tr>
+                    </table>
+                    <button class="normal">Buy Now</button>
+                </div>
+            </section>
+
+            <footer class="section-p1">
+                
+                    <div class="col">
+                        <h4>Contact</h4>
+                        <p><strong>Address:</strong>LBS hall, IIT Kharagpur</p>
+                        <p><strong>Phone:</strong>+91 9328++++++</p>
+
+                    </div>
+                    <div class="col extra">
+                        
+                    </div>
+                    <div class="col extra">
+                        
+                    </div>
+                    <div class="col extra">
+                        
+                    </div>
+
+                    <div class="col">
+                        <h4>About</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Delivery</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <div class="col">
+                        <h4>My Account</h4>
+                        <a href="#">Sign In</a>
+                        <a href="#">View Cart</a>
+                        <a href="#">My Wishlist</a>
+                        <a href="#">Track My Order</a>
+                        <a href="#">Help</a>
+                    </div>
+                
+            </footer>
+            
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>
